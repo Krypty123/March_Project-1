@@ -16,5 +16,10 @@ public class MainClass {
 		System.out.println("Hello! Good Evening!");
 		System.out.println("Hello! Good Bye!");
 	}
+	
+	public static void sayHello(){
+		System.out.println("Hello! Good Morning!");
+		
+	}
 
 }
