@@ -5,11 +5,9 @@ public class SalesClass {
 	public void show(){
 		int[] arg={12,45,67,90};
 		int sum=0;
-		for(int i=0;i<arg.length;i++){
-			
-			System.out.println(arg[i]);
-			sum+=arg[i];
-			
+		for(int num:arg){
+			sum+=num;
+			sum-=10;
 		}
 		System.out.println("Sum: " + sum);
 		
