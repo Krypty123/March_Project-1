@@ -11,9 +11,6 @@ public class SalesClass {
 		
 		System.out.println("Summation: " + sum);
 		
-		for(int i=0;i<arg.length;i++)
-			System.out.println(arg[i]);
-		
 		System.out.println("Show Method");
 		System.out.println("Show Method for SalesClss");
 	}
