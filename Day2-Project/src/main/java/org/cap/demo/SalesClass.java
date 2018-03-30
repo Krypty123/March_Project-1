@@ -7,6 +7,7 @@ public class SalesClass {
 		int sum=0;
 		for(int num:arg){
 			sum+=num;
+			sum-=10;
 		}
 		
 		System.out.println("Summation: " + sum);
